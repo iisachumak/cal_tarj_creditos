@@ -41,18 +41,16 @@ const Calculadora = () => {
                 <img src="https://ofertas.yuhmak.com.ar/images/Yuhmak_Marca-BLANCO.svg" alt="" />
             </div>
             {/* Inputs */}
-            <div class="container text-center">
+            <div class="contenedor-input container text-center">
                 <div class="row">
                     <div class="col">
                         <input className='input-valores' type="text" value={valor} onChange={handlerValor} placeholder='INGRESAR MONTO' />
-                    </div>
-                    <div class="col">
                         <input className='input-valores' type="text" value={sena} onChange={handlerSena} placeholder='INGRESAR ADELANTO' />
                     </div>
-                    <div class="col">
+                    <div class="col ">
                         <label className='label-resultado'>Valor a Financiar: ${formatoNumero(resultadoResta)}</label>
                     </div>
-                    <div class="col">
+                    <div class="col ">
                         <div className="container_select">
                             <select className='select-cuotas' name="" id="" onChange={handleSelectChange}>
                                 <option value="">Selecciona</option>
@@ -69,9 +67,9 @@ const Calculadora = () => {
             {/* Lista de resultados */}
             <div class="contenedor-principal container text-center">
                 <div class="row">
-                    <div class="col">
+                    <div class="col ">
                     </div>
-                    <div class="col">
+                    <div class="col ">
                         <div class="container-fluid contenedor">
                             <div className="card card-info">
                                 {opcionSeleccionada && (
@@ -92,7 +90,7 @@ const Calculadora = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col ">
                     </div>
                 </div>
             </div>
