@@ -1,0 +1,62 @@
+body {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+  }
+  
+
+.title-app{
+    font-size: 2rem;
+    color: white;
+    text-align: center;
+    background-color: #00a541;
+    padding: .5rem;
+    margin-bottom: 2rem;
+    font-weight: 700;
+}
+
+.input-valores{
+    border-radius: 15px;
+    border: 1px solid grey;
+    text-align: center;
+}
+
+.label-resultado{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.select-cuotas{
+    transform: translateY(-.8rem);
+}
+
+.contenedor-principal{
+    margin-top: 1.5rem;
+}
+
+ul li{
+    list-style: none;
+}
+
+
+.card-info{
+    color: white;
+    background-color: #00a541;
+    border-radius: 20px;
+    text-align: center;
+    max-width: 450px;
+    border: 1px solid rgba(0, 0, 0, 0.219);
+}
+
+.title-card{
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.text-informacion{
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}

@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import { data } from './data';
 
+import './calculadora.css'
+
 const Calculadora = () => {
     const [valor, setValor] = useState('');
     const [sena, setSena] = useState('');
@@ -33,36 +35,69 @@ const Calculadora = () => {
 
     return (
         <>
-            {/* Inputs */}
-            <div className="cointer_input">
-                <input type="text" value={valor} onChange={handlerValor} />
-                <input type="text" value={sena} onChange={handlerSena} />
-                <p>Valor a Financiar: ${formatoNumero(resultadoResta)}</p>
+            {/* Titulo */}
+            <div className='title-app'>
+                <p>Calculadora Tarjetas</p>
+                <img src="https://ofertas.yuhmak.com.ar/images/Yuhmak_Marca-BLANCO.svg" alt="" />
             </div>
-            {/* Container */}
-            <div className="container_select">
-                <select name="" id="" onChange={handleSelectChange}>
-                    <option value="">Selecciona</option>
-                    {data.map((opcion) => (
-                        <option key={opcion.id} value={opcion.id}>
-                            {opcion.name}
-                        </option>
-                    ))}
-                </select>
+            {/* Inputs */}
+            <div class="container text-center">
+                <div class="row">
+                    <div class="col">
+                        <input className='input-valores' type="text" value={valor} onChange={handlerValor} placeholder='INGRESAR MONTO' />
+                    </div>
+                    <div class="col">
+                        <input className='input-valores' type="text" value={sena} onChange={handlerSena} placeholder='INGRESAR ADELANTO' />
+                    </div>
+                    <div class="col">
+                        <label className='label-resultado'>Valor a Financiar: ${formatoNumero(resultadoResta)}</label>
+                    </div>
+                    <div class="col">
+                        <div className="container_select">
+                            <select className='select-cuotas' name="" id="" onChange={handleSelectChange}>
+                                <option value="">Selecciona</option>
+                                {data.map((opcion) => (
+                                    <option key={opcion.id} value={opcion.id}>
+                                        {opcion.name}
+                                    </option>
+                                ))}
+                            </select>
+                        </div>
+                    </div>
+                </div>
             </div>
             {/* Lista de resultados */}
-            {opcionSeleccionada && (
-                <div className="resultados">
-                    <ul>
-                        <li>{`${opcionSeleccionada.name}:`}</li>
-                        <ul>
-                            {opcionSeleccionada.cuotas.map((cuota) => (
-                                <li key={cuota.plazo}>{`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)} - Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`}</li>
-                            ))}
-                        </ul>
-                    </ul>
+            <div class="contenedor-principal container text-center">
+                <div class="row">
+                    <div class="col">
+                    </div>
+                    <div class="col">
+                        <div class="container-fluid contenedor">
+                            <div className="card card-info">
+                                {opcionSeleccionada && (
+                                    <div className="resultados">
+                                        <ul className='list-group list-group-flush'>
+                                            <li className='card-title title-card'>{`${opcionSeleccionada.name}`}</li>
+                                            {opcionSeleccionada.cuotas.map((cuota) => (
+                                                <li className='list-group-item text-informacion' key={cuota.plazo}>
+                                                {`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)}`}<br />
+                                                {`Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`}
+                                              </li>
+                                              
+                                            ))}
+                                            <li className='card-title'><br /></li>
+                                        </ul>
+                                    </div>
+                                )}
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                    </div>
                 </div>
-            )}
+            </div>
+
+
         </>
     );
 };

@@ -1,4 +1,4 @@
-import Calculadora from './components/calculadora';
+import Calculadora from './components/Calculadora';
 
 import './App.css';
 
@@ -7,7 +7,6 @@ function App() {
 
   return (
     <>
-      <h1>Calculadora de Tarjetas</h1>
       <Calculadora />
     </>
   );
