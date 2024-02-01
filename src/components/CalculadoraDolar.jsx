@@ -8,6 +8,12 @@ const ConvertidorDolar = () => {
   const [inputValue, setInputValue] = useState('');
   const [resultado, setResultado] = useState(null);
 
+  const Billete = 1150
+
+  const formatoNumero = (numero) => {
+    return numero.toLocaleString('es-ES');
+};
+
   useEffect(() => {
     //API
     fetch("https://dolarapi.com/v1/dolares/blue")
@@ -30,7 +36,7 @@ const ConvertidorDolar = () => {
   const calcularResultado = () => {
     if (dolarValue && inputValue) {
       const resultadoCalculado = parseFloat(dolarValue) * parseFloat(inputValue);
-      setResultado(resultadoCalculado);
+      setResultado(resultadoCalculado / Billete);
     }
   };
 
@@ -50,7 +56,7 @@ const ConvertidorDolar = () => {
 
             {resultado && (
               <p className='card fs-4 m-2'>
-                El valor en Pesos es: {resultado}
+                El valor en Pesos es: {formatoNumero(resultado)}
               </p>
             )}
           </div>
