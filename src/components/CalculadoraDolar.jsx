@@ -48,9 +48,10 @@ const ConvertidorDolar = () => {
           <div class="col">
           </div>
           <div class="col">
+          <h3 className='fs-3 m-2'>Calculadora Dolar Blue Venta</h3>
             <label className='fs-4 m-2'>
               Ingrese el valor de la Moto:
-              <input className='input-valores'  type="number" value={inputValue} onChange={handleInputChange} />
+              <input className='input-valores'  type="text" value={inputValue} onChange={handleInputChange} />
             </label>
             <button className='btn btn-success' onClick={calcularResultado}>Calcular</button>
 
