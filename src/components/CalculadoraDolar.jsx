@@ -49,14 +49,14 @@ const ConvertidorDolar = () => {
           </div>
           <div class="col">
             <label className='fs-4 m-2'>
-              Ingrese el valor en dólares:
+              Ingrese el valor de la Moto:
               <input className='input-valores'  type="number" value={inputValue} onChange={handleInputChange} />
             </label>
             <button className='btn btn-success' onClick={calcularResultado}>Calcular</button>
 
             {resultado && (
-              <p className='card fs-4 m-2'>
-                El valor en Pesos es: {formatoNumero(resultado)}
+              <p className='card fs-4 m-2 p-2'>
+                El Valor de la moto es: {formatoNumero(resultado)}
               </p>
             )}
           </div>
