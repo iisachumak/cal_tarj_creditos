@@ -4,31 +4,72 @@ export const data = [
         id: 1,
         name: 'Bancarazida',
         cuotas: [
-            { plazo: 1, financiacion: 1.02 },
-            { plazo: 3, financiacion: 1.13 / 3 },
-            { plazo: 6, financiacion: 1.25 / 6 },
-            { plazo: 12, financiacion: 1.5 / 12 },
-            { plazo: 18, financiacion: 1.78 / 18 },
+            { plazo: 3, financiacion: 1.15 / 3 },
+            { plazo: 6, financiacion: 1.28 / 6 },
         ],
     },
     {
         id: 2,
-        name: 'Amex',
+        name: 'Visa, Mastercard, Cabal',
         cuotas: [
-            { plazo: 3, financiacion: 1.14 / 3 },
-            { plazo: 6, financiacion: 1.26 / 6 },
-            { plazo: 12, financiacion: 1.52 / 12 },
-            { plazo: 18, financiacion: 1.8 / 18 },
+            { plazo: 3, financiacion: 1.32 / 3 },
+            { plazo: 6, financiacion: 1.60 / 6 },
         ],
     },
     {
         id: 3,
+        name: 'Amex',
+        cuotas: [
+            { plazo: 3, financiacion: 1.37 / 3 },
+            { plazo: 6, financiacion: 1.69 / 6 },
+        ],
+    },
+    {
+        id: 4,
+        name: 'Nativa / Argencard',
+        cuotas: [
+            { plazo: 3, financiacion: 1.17 / 3 },
+            { plazo: 6, financiacion: 1.31 / 6 },
+        ],
+    },
+    {
+        id: 5,
+        name: 'Sol',
+        cuotas: [
+            { plazo: 1, financiacion: 1.02 / 1 },
+            { plazo: 3, financiacion: 1.36 / 3 },
+            { plazo: 6, financiacion: 1.65 / 6 },
+            { plazo: 12, financiacion: 1.140 / 12 },
+            { plazo: 18, financiacion: 1.226 / 18 },
+        ],
+    },
+    {
+        id: 6,
         name: 'Naranja',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.2 / 3 },
-            { plazo: 5, financiacion: 1.23 / 12 },
+            { plazo: 5, financiacion: 1.23 / 5 },
             { plazo: 10, financiacion: 1.72 / 10 },
+        ],
+    },
+    {
+        id: 7,
+        name: 'SuCredito',
+        cuotas: [
+            { plazo: 1, financiacion: 1.03 / 1 },
+            { plazo: 3, financiacion: 1.05 / 3 },
+            { plazo: 6, financiacion: 1.29 / 6 },
+            { plazo: 12, financiacion: 1.75 / 12 },
+        ],
+    },
+    {
+        id: 8,
+        name: 'Credicash',
+        cuotas: [
+            { plazo: 1, financiacion: 1.03 / 1 },
+            { plazo: 3, financiacion: 1.25 / 3 },
+            { plazo: 6, financiacion: 1.30 / 6 },
+            { plazo: 12, financiacion: 1.170 / 12 },
         ],
     },
 ]
