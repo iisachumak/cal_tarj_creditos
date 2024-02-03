@@ -8,8 +8,14 @@ function App() {
 
   return (
     <>
+      {/* Titulo */}
+      <div className='title-app'>
+        <p>Calculadora Tarjetas</p>
+        <img src="https://ofertas.yuhmak.com.ar/images/Yuhmak_Marca-BLANCO.svg" alt="" />
+      </div>
       <Calculadora />
-      <ConvertidorDolar />
+      <br />
+      <Calculadora />
     </>
   );
 }

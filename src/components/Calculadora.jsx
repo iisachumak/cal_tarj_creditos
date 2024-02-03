@@ -1,4 +1,7 @@
 import { useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+import copy from 'copy-to-clipboard';
 import { data } from './data';
 
 import './calculadora.css'
@@ -33,13 +36,13 @@ const Calculadora = () => {
 
     const resultadoResta = valor - sena;
 
+    const handleCopyToClipboard = (text) => {
+        copy(text);
+        toast.success('Texto copiado al portapapeles');
+    };
+
     return (
         <>
-            {/* Titulo */}
-            <div className='title-app'>
-                <p>Calculadora Tarjetas</p>
-                <img src="https://ofertas.yuhmak.com.ar/images/Yuhmak_Marca-BLANCO.svg" alt="" />
-            </div>
             {/* Inputs */}
             <div class="contenedor-input container text-center">
                 <div class="row">
@@ -78,10 +81,15 @@ const Calculadora = () => {
                                             <li className='card-title title-card'>{`${opcionSeleccionada.name}`}</li>
                                             {opcionSeleccionada.cuotas.map((cuota) => (
                                                 <li className='list-group-item text-informacion' key={cuota.plazo}>
-                                                {`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)}`}<br />
-                                                {`Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`}
-                                              </li>
-                                              
+                                                    {`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)}`}<br />
+                                                    {`Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`}
+                                                    <br />
+                                                    <button className='btn btn-success' onClick={() =>
+                                                        handleCopyToClipboard(`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)} Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`)
+                                                    }>
+                                                        Copiar
+                                                    </button>
+                                                </li>
                                             ))}
                                             <li className='card-title'><br /></li>
                                         </ul>
@@ -94,8 +102,7 @@ const Calculadora = () => {
                     </div>
                 </div>
             </div>
-
-
+            <ToastContainer />
         </>
     );
 };
