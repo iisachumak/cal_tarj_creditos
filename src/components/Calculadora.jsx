@@ -84,7 +84,7 @@ const Calculadora = () => {
                                                     {`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)}`}<br />
                                                     {`Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`}
                                                     <br />
-                                                    <button className='btn btn-success' onClick={() =>
+                                                    <button className='btn btn-success mt-1' onClick={() =>
                                                         handleCopyToClipboard(`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)} Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`)
                                                     }>
                                                         Copiar
