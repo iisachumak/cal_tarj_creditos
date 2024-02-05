@@ -12,17 +12,24 @@ const Calculadora = () => {
     const [opcionSeleccionada, setOpcionSeleccionada] = useState(null);
 
     const handlerValor = (e) => {
-        const manejarValor = parseFloat(e.target.value);
-        if (!isNaN(manejarValor)) {
-            setValor(manejarValor);
-        }
+        const inputText = e.target.value;
+
+        const manejarValor = inputText.lastIndexOf(',') !== inputText.length - 2
+            ? parseFloat(inputText.replace(',', '.'))
+            : inputText;
+
+        setValor(manejarValor);
     };
 
     const handlerSena = (e) => {
-        const manejarSena = parseFloat(e.target.value);
-        if (!isNaN(manejarSena)) {
-            setSena(manejarSena);
-        }
+        const inputText = e.target.value;
+
+        // Reemplaza las comas por puntos si no están en la última posición y luego convierte a número
+        const manejarSena = inputText.lastIndexOf(',') !== inputText.length - 1
+            ? parseInt(inputText.replace(',', '.'))
+            : inputText;
+
+        setSena(manejarSena);
     };
 
     const handleSelectChange = (e) => {
@@ -34,7 +41,8 @@ const Calculadora = () => {
         return numero.toLocaleString('es-ES');
     };
 
-    const resultadoResta = valor - sena;
+    let resultadoResta = valor - sena;
+    
 
     const handleCopyToClipboard = (text) => {
         copy(text);
@@ -47,8 +55,8 @@ const Calculadora = () => {
             <div class="contenedor-input container text-center">
                 <div class="row">
                     <div class="col">
-                        <input className='input-valores' type="text" value={valor} onChange={handlerValor} placeholder='INGRESAR MONTO' />
-                        <input className='input-valores' type="text" value={sena} onChange={handlerSena} placeholder='INGRESAR ADELANTO' />
+                        <input className='input-valores' type="number" value={valor} onChange={handlerValor} placeholder='INGRESAR MONTO' />
+                        <input className='input-valores' type="number" value={sena} onChange={handlerSena} placeholder='INGRESAR ADELANTO' />
                     </div>
                     <div class="col ">
                         <label className='label-resultado'>Valor a Financiar: ${formatoNumero(resultadoResta)}</label>
