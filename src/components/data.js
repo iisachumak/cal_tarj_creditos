@@ -26,14 +26,6 @@ export const data = [
     },
     {
         id: 4,
-        name: 'Nativa / Argencard',
-        cuotas: [
-            { plazo: 3, financiacion: 1.17 / 3 },
-            { plazo: 6, financiacion: 1.31 / 6 },
-        ],
-    },
-    {
-        id: 5,
         name: 'Sol',
         cuotas: [
             { plazo: 1, financiacion: 1.02 / 1 },
@@ -44,7 +36,7 @@ export const data = [
         ],
     },
     {
-        id: 6,
+        id: 5,
         name: 'Naranja',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -53,7 +45,7 @@ export const data = [
         ],
     },
     {
-        id: 7,
+        id: 6,
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -63,7 +55,7 @@ export const data = [
         ],
     },
     {
-        id: 8,
+        id: 7,
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
