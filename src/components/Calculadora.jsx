@@ -24,7 +24,6 @@ const Calculadora = () => {
     const handlerSena = (e) => {
         const inputText = e.target.value;
 
-        // Reemplaza las comas por puntos si no están en la última posición y luego convierte a número
         const manejarSena = inputText.lastIndexOf(',') !== inputText.length - 1
             ? parseInt(inputText.replace(',', '.'))
             : inputText;

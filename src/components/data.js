@@ -31,8 +31,8 @@ export const data = [
             { plazo: 1, financiacion: 1.02 / 1 },
             { plazo: 3, financiacion: 1.36 / 3 },
             { plazo: 6, financiacion: 1.65 / 6 },
-            { plazo: 12, financiacion: 1.140 / 12 },
-            { plazo: 18, financiacion: 1.226 / 18 },
+            { plazo: 12, financiacion: 2.4 / 12 },
+            { plazo: 18, financiacion: 3.26 / 18 },
         ],
     },
     {
@@ -61,7 +61,7 @@ export const data = [
             { plazo: 1, financiacion: 1.03 / 1 },
             { plazo: 3, financiacion: 1.25 / 3 },
             { plazo: 6, financiacion: 1.30 / 6 },
-            { plazo: 12, financiacion: 1.170 / 12 },
+            { plazo: 12, financiacion: 2.7 / 12 },
         ],
     },
 ]
