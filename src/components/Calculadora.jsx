@@ -88,11 +88,11 @@ const Calculadora = () => {
                                             <li className='card-title title-card'>{`${opcionSeleccionada.name}`}</li>
                                             {opcionSeleccionada.cuotas.map((cuota) => (
                                                 <li className='list-group-item text-informacion' key={cuota.plazo}>
-                                                    {`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)}`}<br />
-                                                    {`Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`}
+                                                    {`Cuotas ${cuota.plazo}: $${Math.round(resultadoResta * cuota.financiacion).toLocaleString()}`}<br />
+                                                    {`Saldo necesario: $${Math.round(resultadoResta * cuota.financiacion * cuota.plazo).toLocaleString()}`}
                                                     <br />
                                                     <button className='btn btn-success mt-1' onClick={() =>
-                                                        handleCopyToClipboard(`Cuotas ${cuota.plazo}: $${formatoNumero(resultadoResta * cuota.financiacion)} Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`)
+                                                        handleCopyToClipboard(`Cuotas ${cuota.plazo}: $${Math.round(resultadoResta * cuota.financiacion).toLocaleString()} Saldo necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`)
                                                     }>
                                                         Copiar
                                                     </button>
