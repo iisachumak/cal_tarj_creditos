@@ -12,16 +12,20 @@ export const data = [
         id: 2,
         name: 'Visa, Mastercard, Cabal',
         cuotas: [
-            { plazo: 3, financiacion: 1.32 / 3 },
-            { plazo: 6, financiacion: 1.60 / 6 },
+            { plazo: 3, financiacion: 1.16 / 3 },
+            { plazo: 6, financiacion: 1.28 / 6 },
+            { plazo: 9, financiacion: 1.40 / 9 },
+            { plazo: 12, financiacion: 1.55 / 12 },
         ],
     },
     {
         id: 3,
         name: 'Amex',
         cuotas: [
-            { plazo: 3, financiacion: 1.37 / 3 },
-            { plazo: 6, financiacion: 1.69 / 6 },
+            { plazo: 3, financiacion: 1.16 / 3 },
+            { plazo: 6, financiacion: 1.28 / 6 },
+            { plazo: 6, financiacion: 1.40 / 9 },
+            { plazo: 6, financiacion: 1.55 / 12 },
         ],
     },
     {
