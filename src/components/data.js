@@ -24,8 +24,8 @@ export const data = [
         cuotas: [
             { plazo: 3, financiacion: 1.16 / 3 },
             { plazo: 6, financiacion: 1.28 / 6 },
-            { plazo: 6, financiacion: 1.40 / 9 },
-            { plazo: 6, financiacion: 1.55 / 12 },
+            { plazo: 9, financiacion: 1.40 / 9 },
+            { plazo: 12, financiacion: 1.55 / 12 },
         ],
     },
     {
