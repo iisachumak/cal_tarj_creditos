@@ -22,10 +22,10 @@ export const data = [
         id: 3,
         name: 'Amex',
         cuotas: [
-            { plazo: 3, financiacion: 1.16 / 3 },
-            { plazo: 6, financiacion: 1.28 / 6 },
-            { plazo: 9, financiacion: 1.40 / 9 },
-            { plazo: 12, financiacion: 1.55 / 12 },
+            { plazo: 3, financiacion: 1.34 / 3 },
+            { plazo: 6, financiacion: 1.62 / 6 },
+            { plazo: 9, financiacion: 2.34 / 9 },
+            { plazo: 12, financiacion: 3.15 / 12 },
         ],
     },
     {
