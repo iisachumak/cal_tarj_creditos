@@ -10,7 +10,7 @@ export const data = [
     },
     {
         id: 2,
-        name: 'Visa, Mastercard, Cabal',
+        name: 'Visa, Mastercard',
         cuotas: [
             { plazo: 3, financiacion: 1.16 / 3 },
             { plazo: 6, financiacion: 1.28 / 6 },
@@ -20,27 +20,16 @@ export const data = [
     },
     {
         id: 3,
-        name: 'Amex',
+        name: 'Amex, Cabal, Dinner, Visa/Master No Bca',
         cuotas: [
             { plazo: 3, financiacion: 1.34 / 3 },
             { plazo: 6, financiacion: 1.62 / 6 },
-            { plazo: 9, financiacion: 2.34 / 9 },
-            { plazo: 12, financiacion: 3.15 / 12 },
+            { plazo: 12, financiacion: 2.34 / 12 },
+            { plazo: 18, financiacion: 3.15 / 18 },
         ],
     },
     {
         id: 4,
-        name: 'Sol',
-        cuotas: [
-            { plazo: 1, financiacion: 1.02 / 1 },
-            { plazo: 3, financiacion: 1.36 / 3 },
-            { plazo: 6, financiacion: 1.65 / 6 },
-            { plazo: 12, financiacion: 2.4 / 12 },
-            { plazo: 18, financiacion: 3.26 / 18 },
-        ],
-    },
-    {
-        id: 5,
         name: 'Naranja',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -49,7 +38,7 @@ export const data = [
         ],
     },
     {
-        id: 6,
+        id: 5,
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -59,7 +48,7 @@ export const data = [
         ],
     },
     {
-        id: 7,
+        id: 6,
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
