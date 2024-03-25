@@ -33,8 +33,8 @@ export const data = [
         name: 'Naranja',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 5, financiacion: 1.23 / 5 },
-            { plazo: 10, financiacion: 1.72 / 10 },
+            { plazo: 5, financiacion: 1.20 / 5 },
+            { plazo: 10, financiacion: 1.54 / 10 },
         ],
     },
     {
