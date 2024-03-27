@@ -4,18 +4,18 @@ export const data = [
         id: 1,
         name: 'Bancarazida',
         cuotas: [
-            { plazo: 3, financiacion: 1.15 / 3 },
-            { plazo: 6, financiacion: 1.28 / 6 },
+            { plazo: 3, financiacion: 1.14 / 3 },
+            { plazo: 6, financiacion: 1.24 / 6 },
         ],
     },
     {
         id: 2,
         name: 'Visa, Mastercard',
         cuotas: [
-            { plazo: 3, financiacion: 1.16 / 3 },
-            { plazo: 6, financiacion: 1.28 / 6 },
-            { plazo: 9, financiacion: 1.40 / 9 },
-            { plazo: 12, financiacion: 1.55 / 12 },
+            { plazo: 3, financiacion: 1.14 / 3 },
+            { plazo: 6, financiacion: 1.23 / 6 },
+            { plazo: 9, financiacion: 1.33 / 9 },
+            { plazo: 12, financiacion: 1.43 / 12 },
         ],
     },
     {
