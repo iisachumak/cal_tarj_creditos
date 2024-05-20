@@ -2,7 +2,7 @@
 export const data = [
     {
         id: 1,
-        name: 'Bancarazida - Visa / MasterCard',
+        name: 'Bancarazida - Visa/MasterCard',
         cuotas: [
             { plazo: 3, financiacion: 1.11 / 3 },
             { plazo: 6, financiacion: 1.20 / 6 },
