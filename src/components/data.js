@@ -4,8 +4,10 @@ export const data = [
         id: 1,
         name: 'Bancarazida - Visa / MasterCard',
         cuotas: [
-            { plazo: 3, financiacion: 1.13 / 3 },
-            { plazo: 6, financiacion: 1.22 / 6 },
+            { plazo: 3, financiacion: 1.11 / 3 },
+            { plazo: 6, financiacion: 1.20 / 6 },
+            { plazo: 6, financiacion: 1.29 / 9 },
+            { plazo: 6, financiacion: 1.39 / 12 },
         ],
     },
     {
