@@ -89,7 +89,7 @@ const Calculadora = () => {
                                             {opcionSeleccionada.cuotas.map((cuota) => (
                                                 <li className='list-group-item text-informacion' key={cuota.plazo}>
                                                     {`Cuotas ${cuota.plazo}: $${Math.round(resultadoResta * cuota.financiacion).toLocaleString()}`}<br />
-                                                    {`Saldo necesario: $${Math.round(resultadoResta * cuota.financiacion * cuota.plazo).toLocaleString()}`}
+                                                    {`Margen necesario: $${Math.round(resultadoResta * cuota.financiacion * cuota.plazo).toLocaleString()}`}
                                                     <br />
                                                     <button className='btn btn-success mt-1' onClick={() =>
                                                         handleCopyToClipboard(`Cuotas ${cuota.plazo}: $${Math.round(resultadoResta * cuota.financiacion).toLocaleString()}Margen necesario: $${formatoNumero(resultadoResta * cuota.financiacion * cuota.plazo)}`)
