@@ -2,12 +2,10 @@
 export const data = [
     {
         id: 1,
-        name: 'Bancarazida - Visa/MasterCard',
+        name: 'Bancarazida - Plan Simple',
         cuotas: [
-            { plazo: 3, financiacion: 1.11 / 3 },
-            { plazo: 6, financiacion: 1.20 / 6 },
-            { plazo: 9, financiacion: 1.29 / 9 },
-            { plazo: 12, financiacion: 1.39 / 12 },
+            { plazo: 3, financiacion: 1.13 / 3 },
+            { plazo: 6, financiacion: 1.22 / 6 },
         ],
     },
     {
@@ -20,7 +18,7 @@ export const data = [
     },
     {
         id: 3,
-        name: 'Bancarazida',
+        name: 'Argencard, Nativa, Sol y CABAL',
         cuotas: [
             { plazo: 3, financiacion: 1.11 / 3 },
             { plazo: 6, financiacion: 1.20 / 6 },
@@ -28,12 +26,12 @@ export const data = [
     },
     {
         id: 4,
-        name: 'Visa, Mastercard',
+        name: 'Bancarazida - Planes Largos',
         cuotas: [
             { plazo: 3, financiacion: 1.13 / 3 },
             { plazo: 6, financiacion: 1.22 / 6 },
             { plazo: 9, financiacion: 1.31 / 9 },
-            { plazo: 12, financiacion: 1.41 / 12 },
+            { plazo: 12, financiacion: 1.41 / 12 }
         ],
     },
     {
@@ -62,7 +60,7 @@ export const data = [
             { plazo: 1, financiacion: 1.03 / 1 },
             { plazo: 3, financiacion: 1.28 / 3 },
             { plazo: 6, financiacion: 1.78 / 6 },
-            { plazo: 12, financiacion: 1.89 / 12 },
+            { plazo: 12, financiacion: 2.89 / 12 },
         ],
     },
     {
