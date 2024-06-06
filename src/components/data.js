@@ -4,8 +4,10 @@ export const data = [
         id: 1,
         name: 'Bancarazida - Plan Simple',
         cuotas: [
-            { plazo: 3, financiacion: 1.13 / 3 },
-            { plazo: 6, financiacion: 1.22 / 6 },
+            { plazo: 3, financiacion: 1.11 / 3 },
+            { plazo: 6, financiacion: 1.20 / 6 },
+            { plazo: 9, financiacion: 1.29 / 9 },
+            { plazo: 12, financiacion: 1.39 / 12 }
         ],
     },
     {
@@ -26,16 +28,6 @@ export const data = [
     },
     {
         id: 4,
-        name: 'Bancarazida - Planes Largos',
-        cuotas: [
-            { plazo: 3, financiacion: 1.13 / 3 },
-            { plazo: 6, financiacion: 1.22 / 6 },
-            { plazo: 9, financiacion: 1.31 / 9 },
-            { plazo: 12, financiacion: 1.41 / 12 }
-        ],
-    },
-    {
-        id: 5,
         name: 'Amex, Cabal, Dinner, Visa/Master No Bca',
         cuotas: [
             { plazo: 3, financiacion: 1.35 / 3 },
@@ -45,16 +37,15 @@ export const data = [
         ],
     },
     {
-        id: 6,
+        id: 5,
         name: 'Naranja',
         cuotas: [
-            { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 5, financiacion: 1.16 / 5 },
-            { plazo: 10, financiacion: 1.46 / 10 },
+            { plazo: 6, financiacion: 1.15 / 6 },
+            { plazo: 12, financiacion: 1.39 / 12 },
         ],
     },
     {
-        id: 7,
+        id: 6,
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -64,7 +55,7 @@ export const data = [
         ],
     },
     {
-        id: 8,
+        id: 7,
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
