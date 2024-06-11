@@ -28,7 +28,7 @@ export const data = [
     },
     {
         id: 4,
-        name: 'CABAL',
+        name: 'SOL',
         cuotas: [
             { plazo: 3, financiacion: 1.13 / 3 },
             { plazo: 6, financiacion: 1.22 / 6 },
