@@ -114,7 +114,7 @@ export const data = [
             { plazo: 1, financiacion: 1.03 / 1 },
             { plazo: 3, financiacion: 1.13 / 3 },
             { plazo: 6, financiacion: 1.22 / 6 },
-            { plazo: 12, financiacion: 1.94 / 12 },
+            { plazo: 12, financiacion: 1.42 / 12 },
         ],
     },
 ]
