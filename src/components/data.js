@@ -25,19 +25,21 @@ export const data = [
     /**Argencard, Nativa, CABAL */
     {
         id: 3,
-        name: 'Argencard, Nativa, CABAL',
+        name: 'Nativa, CABAL',
         cuotas: [
             { plazo: 3, financiacion: 1.11 / 3 },
             { plazo: 6, financiacion: 1.20 / 6 },
+            { plazo: 9, financiacion: 1.29 / 9 },
+            { plazo: 12, financiacion: 1.39 / 12 }
         ],
     },
     /**Amex*/
     {
         id: 4,
-        name: 'Amex - Cualquier Bco',
+        name: 'VISA / MASTER/DINNER/ CABAL/ NATIVA bancarias ',
         cuotas: [
-            { plazo: 15, financiacion: 3.20 / 15 },
-            { plazo: 18, financiacion: 4.19 / 18 },
+            { plazo: 15, financiacion: 1.54 / 15 },
+            { plazo: 18, financiacion: 1.66 / 18 },
         ],
     },
     /**Visa/Master No Bca */
@@ -67,9 +69,10 @@ export const data = [
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.15 / 3 },
-            { plazo: 6, financiacion: 1.70 / 6 },
-            { plazo: 12, financiacion: 2.61 / 12 },
+            { plazo: 3, financiacion: 1.13 / 3 },
+            { plazo: 6, financiacion: 1.50 / 6 },
+            { plazo: 9, financiacion: 1.55 / 9 },
+            { plazo: 12, financiacion: 1.86 / 12 },
         ],
     },
     /**Credicash */
@@ -78,9 +81,10 @@ export const data = [
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.32 / 3 },
-            { plazo: 6, financiacion: 1.41 / 6 },
-            { plazo: 12, financiacion: 4.44 / 12 },
+            { plazo: 3, financiacion: 1.23 / 3 },
+            { plazo: 6, financiacion: 1.31 / 6 },
+            { plazo: 9, financiacion: 1.74 / 9 },
+            { plazo: 12, financiacion: 2.62 / 12 },
         ],
     },
     /**Sol */
@@ -91,6 +95,7 @@ export const data = [
             { plazo: 1, financiacion: 1.03 / 1 },
             { plazo: 3, financiacion: 1.13 / 3 },
             { plazo: 6, financiacion: 1.22 / 6 },
+            { plazo: 9, financiacion: 1.31 / 9 },
             { plazo: 12, financiacion: 1.42 / 12 },
         ],
     },
