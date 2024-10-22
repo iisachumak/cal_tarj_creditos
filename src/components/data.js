@@ -72,7 +72,7 @@ export const data = [
             { plazo: 3, financiacion: 1.13 / 3 },
             { plazo: 6, financiacion: 1.15 / 6 },
             { plazo: 9, financiacion: 1.26 / 9 },
-            { plazo: 12, financiacion: 1.36 / 12 },
+            { plazo: 12, financiacion: 1.39 / 12 },
         ],
     },
     /**Credicash */
