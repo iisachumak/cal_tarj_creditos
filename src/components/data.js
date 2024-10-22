@@ -70,9 +70,9 @@ export const data = [
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
             { plazo: 3, financiacion: 1.13 / 3 },
-            { plazo: 6, financiacion: 1.50 / 6 },
-            { plazo: 9, financiacion: 1.55 / 9 },
-            { plazo: 12, financiacion: 1.86 / 12 },
+            { plazo: 6, financiacion: 1.15 / 6 },
+            { plazo: 9, financiacion: 1.26 / 9 },
+            { plazo: 12, financiacion: 1.36 / 12 },
         ],
     },
     /**Credicash */
@@ -81,10 +81,10 @@ export const data = [
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.23 / 3 },
-            { plazo: 6, financiacion: 1.31 / 6 },
-            { plazo: 9, financiacion: 1.74 / 9 },
-            { plazo: 12, financiacion: 2.62 / 12 },
+            { plazo: 3, financiacion: 1.10 / 3 },
+            { plazo: 6, financiacion: 1.30 / 6 },
+            { plazo: 9, financiacion: 1.49 / 9 },
+            { plazo: 12, financiacion: 1.90 / 12 },
         ],
     },
     /**Sol */
