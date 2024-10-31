@@ -53,9 +53,29 @@ export const data = [
             { plazo: 18, financiacion: 2.50 / 18 },
         ],
     },
-    /**Naranja */
+    /**CABAL NO SIMPLE OTROS BANCOS  */
     {
         id: 6,
+        name: 'CABAL NO SIMPLE OTROS BANCOS',
+        cuotas: [
+            { plazo: 3, financiacion: 1.25 / 3 },
+            { plazo: 6, financiacion: 1.45 / 6 },
+            { plazo: 12, financiacion: 2.02 / 12 },
+        ],
+    },
+    /**AMEX NO SIMPLE OTROS BANCOS  */
+    {
+        id: 7,
+        name: 'AMEX NO SIMPLE OTROS BANCOS',
+        cuotas: [
+            { plazo: 3, financiacion: 1.29 / 3 },
+            { plazo: 6, financiacion: 1.57 / 6 },
+            { plazo: 12, financiacion: 2.50 / 12 },
+        ],
+    },
+    /**Naranja */
+    {
+        id: 8,
         name: 'Naranja',
         cuotas: [
             { plazo: 6, financiacion: 1.15 / 6 },
@@ -65,7 +85,7 @@ export const data = [
     },
     /**SuCredito */
     {
-        id: 7,
+        id: 9,
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -77,7 +97,7 @@ export const data = [
     },
     /**Credicash */
     {
-        id: 8,
+        id: 10,
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -89,7 +109,7 @@ export const data = [
     },
     /**Sol */
     {
-        id: 9,
+        id: 11,
         name: 'Sol',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
