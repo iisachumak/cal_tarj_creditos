@@ -5,10 +5,10 @@ export const data = [
         id: 1,
         name: 'Bancarazida - Plan Simple',
         cuotas: [
-            { plazo: 3, financiacion: 1.11 / 3 },
-            { plazo: 6, financiacion: 1.20 / 6 },
-            { plazo: 9, financiacion: 1.29 / 9 },
-            { plazo: 12, financiacion: 1.39 / 12 }
+            { plazo: 3, financiacion: 1.10 / 3 },
+            { plazo: 6, financiacion: 1.17 / 6 },
+            { plazo: 9, financiacion: 1.25 / 9 },
+            { plazo: 12, financiacion: 1.34 / 12 }
         ],
     },
     /**AMEX (Santander, Macro, Patagonia, Hsbc, Galicia) */
@@ -16,10 +16,10 @@ export const data = [
         id: 2,
         name: 'AMEX (Santander, Macro, Patagonia, Hsbc, Galicia)',
         cuotas: [
-            { plazo: 3, financiacion: 1.12 / 3 },
-            { plazo: 6, financiacion: 1.21 / 6 },
-            { plazo: 9, financiacion: 1.30 / 9 },
-            { plazo: 12, financiacion: 1.40 / 12 },
+            { plazo: 3, financiacion: 1.11 / 3 },
+            { plazo: 6, financiacion: 1.18 / 6 },
+            { plazo: 9, financiacion: 1.26 / 9 },
+            { plazo: 12, financiacion: 1.35 / 12 },
         ],
     },
     /**Argencard, Nativa, CABAL */
@@ -27,10 +27,10 @@ export const data = [
         id: 3,
         name: 'Nativa, CABAL',
         cuotas: [
-            { plazo: 3, financiacion: 1.11 / 3 },
-            { plazo: 6, financiacion: 1.20 / 6 },
-            { plazo: 9, financiacion: 1.29 / 9 },
-            { plazo: 12, financiacion: 1.39 / 12 }
+            { plazo: 3, financiacion: 1.10 / 3 },
+            { plazo: 6, financiacion: 1.17 / 6 },
+            { plazo: 9, financiacion: 1.25 / 9 },
+            { plazo: 12, financiacion: 1.34 / 12 }
         ],
     },
     /**Amex*/
@@ -61,6 +61,7 @@ export const data = [
             { plazo: 3, financiacion: 1.25 / 3 },
             { plazo: 6, financiacion: 1.45 / 6 },
             { plazo: 12, financiacion: 2.02 / 12 },
+            { plazo: 18, financiacion: 2.75 / 18 }
         ],
     },
     /**AMEX NO SIMPLE OTROS BANCOS  */
@@ -89,7 +90,7 @@ export const data = [
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.13 / 3 },
+            { plazo: 3, financiacion: 1.10 / 3 },
             { plazo: 6, financiacion: 1.15 / 6 },
             { plazo: 9, financiacion: 1.26 / 9 },
             { plazo: 12, financiacion: 1.39 / 12 },
@@ -113,10 +114,10 @@ export const data = [
         name: 'Sol',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.13 / 3 },
-            { plazo: 6, financiacion: 1.22 / 6 },
-            { plazo: 9, financiacion: 1.31 / 9 },
-            { plazo: 12, financiacion: 1.42 / 12 },
+            { plazo: 3, financiacion: 1.12 / 3 },
+            { plazo: 6, financiacion: 1.19 / 6 },
+            { plazo: 9, financiacion: 1.28 / 9 },
+            { plazo: 12, financiacion: 1.36 / 12 },
         ],
     },
 ]
