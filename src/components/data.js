@@ -37,12 +37,12 @@ export const data = [
     /**VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO */
     {
         id: 4,
-        name: 'VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO',
+        name: 'VISA / MASTER/DINNER/ CABAL/ NATIVA bancarias',
         cuotas: [
-            { plazo: 9, financiacion: 1.64 / 9 },
-            { plazo: 12, financiacion: 1.89 / 12 },
-            { plazo: 15, financiacion: 2.17 / 15 },
-            { plazo: 18, financiacion: 2.50 / 18 }
+            { plazo: 9, financiacion: 1.32 / 9 },
+            { plazo: 12, financiacion: 1.42 / 12 },
+            { plazo: 15, financiacion: 1.54 / 15 },
+            { plazo: 18, financiacion: 1.66 / 18 }
         ]
     },
     /**Visa/Master No Bca */
