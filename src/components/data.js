@@ -5,10 +5,11 @@ export const data = [
         id: 1,
         name: 'Bancarazida - Plan Simple',
         cuotas: [
-            { plazo: 3, financiacion: 1.10 / 3 },
-            { plazo: 6, financiacion: 1.17 / 6 },
-            { plazo: 9, financiacion: 1.25 / 9 },
-            { plazo: 12, financiacion: 1.34 / 12 }
+            { plazo: 3, financiacion: 1.11 / 3 },
+            { plazo: 6, financiacion: 1.18 / 6 },
+            /** { plazo: 9, financiacion: 1.25 / 9 },
+            { plazo: 12, financiacion: 1.34 / 12 }*/
+            
         ],
     },
     /**AMEX (Santander, Macro, Patagonia, Hsbc, Galicia) */
@@ -18,8 +19,8 @@ export const data = [
         cuotas: [
             { plazo: 3, financiacion: 1.11 / 3 },
             { plazo: 6, financiacion: 1.18 / 6 },
-            { plazo: 9, financiacion: 1.26 / 9 },
-            { plazo: 12, financiacion: 1.35 / 12 },
+            /** { plazo: 9, financiacion: 1.26 / 9 },
+            { plazo: 12, financiacion: 1.35 / 12 },*/
         ],
     },
     /**Argencard, Nativa, CABAL */
@@ -29,18 +30,20 @@ export const data = [
         cuotas: [
             { plazo: 3, financiacion: 1.10 / 3 },
             { plazo: 6, financiacion: 1.17 / 6 },
-            { plazo: 9, financiacion: 1.25 / 9 },
-            { plazo: 12, financiacion: 1.34 / 12 }
+            /** { plazo: 9, financiacion: 1.25 / 9 },
+            { plazo: 12, financiacion: 1.34 / 12 }*/
         ],
     },
-    /**Amex*/
+    /**VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO */
     {
         id: 4,
-        name: 'VISA / MASTER/DINNER/ CABAL/ NATIVA bancarias ',
+        name: 'VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO',
         cuotas: [
-            { plazo: 15, financiacion: 1.54 / 15 },
-            { plazo: 18, financiacion: 1.66 / 18 },
-        ],
+            { plazo: 9, financiacion: 1.64 / 9 },
+            { plazo: 12, financiacion: 1.89 / 12 },
+            { plazo: 15, financiacion: 2.17 / 15 },
+            { plazo: 18, financiacion: 2.50 / 18 }
+        ]
     },
     /**Visa/Master No Bca */
     {
