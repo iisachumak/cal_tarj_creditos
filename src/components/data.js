@@ -37,7 +37,7 @@ export const data = [
     /**VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO */
     {
         id: 4,
-        name: 'VISA / MASTER/DINNER/ CABAL/ NATIVA bancarias',
+        name: 'Bancarizada - no plan simple',
         cuotas: [
             { plazo: 9, financiacion: 1.32 / 9 },
             { plazo: 12, financiacion: 1.42 / 12 },
