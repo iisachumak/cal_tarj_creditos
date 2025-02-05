@@ -6,7 +6,7 @@ export const data = [
         name: 'Bancarazida - Plan Simple',
         cuotas: [
             { plazo: 3, financiacion: 1.11 / 3 },
-            { plazo: 6, financiacion: 1.18 / 6 },
+            { plazo: 6, financiacion: 1.19 / 6 },
             /** { plazo: 9, financiacion: 1.25 / 9 },
             { plazo: 12, financiacion: 1.34 / 12 }*/
             
@@ -18,7 +18,7 @@ export const data = [
         name: 'AMEX (Santander, Macro, Patagonia, Hsbc, Galicia)',
         cuotas: [
             { plazo: 3, financiacion: 1.11 / 3 },
-            { plazo: 6, financiacion: 1.18 / 6 },
+            { plazo: 6, financiacion: 1.20 / 6 },
             /** { plazo: 9, financiacion: 1.26 / 9 },
             { plazo: 12, financiacion: 1.35 / 12 },*/
         ],
@@ -28,8 +28,8 @@ export const data = [
         id: 3,
         name: 'Nativa, CABAL',
         cuotas: [
-            { plazo: 3, financiacion: 1.10 / 3 },
-            { plazo: 6, financiacion: 1.17 / 6 },
+            { plazo: 3, financiacion: 1.11 / 3 },
+            { plazo: 6, financiacion: 1.19 / 6 },
             /** { plazo: 9, financiacion: 1.25 / 9 },
             { plazo: 12, financiacion: 1.34 / 12 }*/
         ],
@@ -40,9 +40,9 @@ export const data = [
         name: 'Bcada - Otros Bancos',
         cuotas:[
             { plazo: 9, financiacion: 1.32 / 9 },
-            { plazo: 12, financiacion: 1.42 / 12 },
-            { plazo: 15, financiacion: 1.54 / 15 },
-            { plazo: 18, financiacion: 1.66 / 18 }
+            { plazo: 12, financiacion: 1.43 / 12 },
+            { plazo: 15, financiacion: 1.55 / 15 },
+            { plazo: 18, financiacion: 1.67 / 18 }
         ]
     },
     /**VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO */
@@ -128,10 +128,10 @@ export const data = [
         name: 'Sol',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
-            { plazo: 3, financiacion: 1.12 / 3 },
-            { plazo: 6, financiacion: 1.19 / 6 },
-            { plazo: 9, financiacion: 1.28 / 9 },
-            { plazo: 12, financiacion: 1.36 / 12 },
+            { plazo: 3, financiacion: 1.11 / 3 },
+            { plazo: 6, financiacion: 1.18 / 6 },
+            { plazo: 9, financiacion: 1.25 / 9 },
+            { plazo: 12, financiacion: 1.33 / 12 },
         ],
     },
 ]
