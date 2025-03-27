@@ -98,7 +98,7 @@ export const data = [
             { plazo: 12, financiacion: 1.39 / 12 },
         ],
     },
-    /**SuCredito */
+    /**SuCredito 
     {
         id: 10,
         name: 'SuCredito',
@@ -110,9 +110,10 @@ export const data = [
             { plazo: 12, financiacion: 1.39 / 12 },
         ],
     },
+    */
     /**Credicash */
     {
-        id: 11,
+        id: 10,
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -124,7 +125,7 @@ export const data = [
     },
     /**Sol */
     {
-        id: 12,
+        id: 11,
         name: 'Sol',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
