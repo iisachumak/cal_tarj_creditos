@@ -41,7 +41,7 @@ export const data = [
         cuotas:[
             { plazo: 9, financiacion: 1.25 / 9 },
             { plazo: 12, financiacion: 1.33 / 12 },
-            { plazo: 15, financiacion: 1.52 / 15 },
+            { plazo: 15, financiacion: 1.42 / 15 },
             { plazo: 18, financiacion: 1.51 / 18 }
         ]
     },
@@ -97,25 +97,25 @@ export const data = [
             { plazo: 12, financiacion: 1.37 / 12 },
         ],
     },
-    /**SuCredito 
+    /**SuCredito */
     {
         id: 10,
         name: 'SuCredito',
         cuotas: [
-            { plazo: 1, financiacion: 1.03 / 1 },
+            /*{ plazo: 1, financiacion: 1.03 / 1 },*/
             { plazo: 3, financiacion: 1.10 / 3 },
             { plazo: 6, financiacion: 1.15 / 6 },
             { plazo: 9, financiacion: 1.26 / 9 },
             { plazo: 12, financiacion: 1.39 / 12 },
         ],
     },
-    */
+    
     /**Credicash */
     {
-        id: 10,
+        id: 11,
         name: 'Credicash',
         cuotas: [
-            { plazo: 1, financiacion: 1.03 / 1 },
+            /*{ plazo: 1, financiacion: 1.03 / 1 },*/
             { plazo: 3, financiacion: 1.10 / 3 },
             { plazo: 6, financiacion: 1.30 / 6 },
             { plazo: 9, financiacion: 1.49 / 9 },
@@ -124,10 +124,10 @@ export const data = [
     },
     /**Sol */
     {
-        id: 11,
+        id: 12,
         name: 'Sol',
         cuotas: [
-            { plazo: 1, financiacion: 1.03 / 1 },
+            /*{ plazo: 1, financiacion: 1.03 / 1 },*/
             { plazo: 3, financiacion: 1.11 / 3 },
             { plazo: 6, financiacion: 1.18 / 6 },
             { plazo: 9, financiacion: 1.25 / 9 },
