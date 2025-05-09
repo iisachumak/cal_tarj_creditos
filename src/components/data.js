@@ -39,10 +39,10 @@ export const data = [
         id: 4,
         name: 'Bcada - Otros Bancos',
         cuotas:[
-            { plazo: 9, financiacion: 1.25 / 9 },
-            { plazo: 12, financiacion: 1.33 / 12 },
-            { plazo: 15, financiacion: 1.42 / 15 },
-            { plazo: 18, financiacion: 1.51 / 18 }
+            { plazo: 9, financiacion: 1.30 / 9 },
+            { plazo: 12, financiacion: 1.40 / 12 },
+            { plazo: 15, financiacion: 1.51 / 15 },
+            { plazo: 18, financiacion: 1.63 / 18 }
         ]
     },
     /**VISA- MASTER-BCO ,FRANCES- SANTANDER-GALICIA-NACION-MACRO */
@@ -72,8 +72,10 @@ export const data = [
         id: 7,
         name: 'CABAL NO SIMPLE OTROS BANCOS',
         cuotas: [
+            /**
             { plazo: 3, financiacion: 1.25 / 3 },
             { plazo: 6, financiacion: 1.45 / 6 },
+              */
             { plazo: 12, financiacion: 2.02 / 12 },
             { plazo: 18, financiacion: 2.75 / 18 }
         ],
@@ -86,6 +88,7 @@ export const data = [
             { plazo: 3, financiacion: 1.22 / 3 },
             { plazo: 6, financiacion: 1.41 / 6 },
             { plazo: 12, financiacion: 1.97 / 12 },
+            { plazo: 18, financiacion: 2.81 / 18 },
         ],
     },
     /**Naranja */
@@ -93,8 +96,9 @@ export const data = [
         id: 9,
         name: 'Naranja',
         cuotas: [
-            { plazo: 6, financiacion: 1.15 / 6 },
+            { plazo: 6, financiacion: 1.16 / 6 },
             { plazo: 12, financiacion: 1.37 / 12 },
+            { plazo: 14, financiacion: 1.51 / 14 },
         ],
     },
     /**SuCredito */
@@ -104,9 +108,9 @@ export const data = [
         cuotas: [
             /*{ plazo: 1, financiacion: 1.03 / 1 },*/
             { plazo: 3, financiacion: 1.10 / 3 },
-            { plazo: 6, financiacion: 1.15 / 6 },
-            { plazo: 9, financiacion: 1.26 / 9 },
-            { plazo: 12, financiacion: 1.39 / 12 },
+            { plazo: 6, financiacion: 1.21 / 6 },
+            { plazo: 9, financiacion: 1.32 / 9 },
+            { plazo: 12, financiacion: 1.46 / 12 },
         ],
     },
     
