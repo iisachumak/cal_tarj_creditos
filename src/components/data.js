@@ -138,4 +138,13 @@ export const data = [
             { plazo: 12, financiacion: 1.33 / 12 },
         ],
     },
+    /**MACRO */
+    {
+        id: 13,
+        name: 'Solo Macro Visa/Master',
+        cuotas: [
+            { plazo: 9, financiacion: 1.26 / 9 },
+            { plazo: 12, financiacion: 1.36 / 12 },
+        ],
+    },
 ]
