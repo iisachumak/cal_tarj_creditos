@@ -41,27 +41,38 @@ export const data = [
         id: 4,
         name: 'BCO SANTANDER GETNET',
         cuotas:[
-            { plazo: 6, financiacion: 1.20 / 9 },
+            { plazo: 6, financiacion: 1.20 / 6 },
             { plazo: 9, financiacion: 1.28 / 9 },
             { plazo: 12, financiacion: 1.36 / 12 },
         ]
     },
 
-    /**VISA / MASTER/DINNER/ CABAL/  BANCOS DETALLADOS */
+    /* BCO MACRO TERMINALES */
     {
         id: 5,
+        name: 'BCO MACRO TERMINALES',
+        cuotas: [
+            { plazo: 6, financiacion: 1.17 / 6 },
+            { plazo: 9, financiacion: 1.26 / 9 },
+            { plazo: 12, financiacion: 1.36 / 12 }
+        ]
+    },
+
+    /**VISA / MASTER/DINNER/ CABAL/  BANCOS DETALLADOS */
+    {
+        id: 6,
         name: 'VISA / MASTER',
         cuotas: [
-            { plazo: 9, financiacion: 1.25 / 9 },
-            { plazo: 12, financiacion: 1.33 / 12 },
-            { plazo: 15, financiacion: 1.42 / 15 },
-            { plazo: 18, financiacion: 1.51 / 18 }
+            { plazo: 9, financiacion: 1.41 / 9 },
+            { plazo: 12, financiacion: 1.56 / 12 },
+            { plazo: 15, financiacion: 1.73 / 15 },
+            { plazo: 18, financiacion: 1.91 / 18 }
         ]
     },
 
     /**NO BANCARIAS :VISA / MASTER . (NARANJA ,CENCOSUD,EFECTIVO ,UALA,BRUBANK,MERC.LIBRE , ETC) */
     {
-        id: 6,
+        id: 7,
         name: 'NO BANCARIAS :VISA / MASTER',
         cuotas: [
             { plazo: 3, financiacion: 1.34 / 3 },
@@ -72,7 +83,7 @@ export const data = [
 
     /**CABAL NO SIMPLE OTROS BANCOS */
     {
-        id: 7,
+        id: 8,
         name: 'CABAL NO SIMPLE',
         cuotas: [
             { plazo: 3, financiacion: 1.34 / 3 },
@@ -83,7 +94,7 @@ export const data = [
 
     /**AMEX NO SIMPLE OTROS BANCOS */
     {
-        id: 8,
+        id: 9,
         name: 'AMEX NO SIMPLE',
         cuotas: [
             { plazo: 3, financiacion: 1.34 / 3 },
@@ -94,19 +105,19 @@ export const data = [
 
     /**Naranja */
     {
-        id: 9,
+        id: 10,
         name: 'Naranja',
         cuotas: [
-            { plazo: 6, financiacion: 1.14 / 6 },
-            { plazo: 9, financiacion: 1.29 / 9 },
-            { plazo: 12, financiacion: 1.46 / 12 },
+            { plazo: 6, financiacion: 1.21 / 6 },
+            { plazo: 9, financiacion: 1.33 / 9 },
+            { plazo: 12, financiacion: 1.50 / 12 },
             /*{ plazo: 14, financiacion: 1.63 / 14 },*/
         ],
     },
 
     /**SuCredito */
     {
-        id: 10,
+        id: 11,
         name: 'SuCredito',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -119,7 +130,7 @@ export const data = [
     
     /**Credicash */
     {
-        id: 11,
+        id: 12,
         name: 'Credicash',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
@@ -132,7 +143,7 @@ export const data = [
 
     /**Sol */
     {
-        id: 12,
+        id: 13,
         name: 'Sol',
         cuotas: [
             { plazo: 1, financiacion: 1.03 / 1 },
